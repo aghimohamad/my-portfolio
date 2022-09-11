@@ -8,7 +8,7 @@ function About() {
         title : "ABOUT ME",
         description : "Get to know my skills and know me a little bit "
     }
-    const skills = ["HTML", "CSS", "JavaScript", "TypeScript", "Reactjs", "Nextjs", "Redux", "SASS", "SCSS", "Git", "GitHub", "Responsive Design", "TailwindCSS", "BootStrapCSS", "Firebase",   ]
+    const skills = ["HTML", "CSS", "JavaScript", "TypeScript", "Reactjs", "Nextjs", "Redux", "SASS", "SCSS", "Git", "GitHub", "Responsive Design", "TailwindCSS", "BootStrapCSS", "Firebase",]
 
 
 
