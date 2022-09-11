@@ -2,3 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800;900&display=swap');
+
+#hero {
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("../public/common-bg.svg");
+}
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+.mouse {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouse div {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mouse div::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    -webkit-animation: wheel 1.3s infinite;
+}
+
+@keyframes wheel{to{opacity:0;top:27px}}
+@-webkit-keyframes wheel{to{opacity:0;top:27px}}
+
+#social::after {
+    content : "contact";
+    position : absolute;
+    padding: 1px;
+    background-color: #facf0f;
+    transform: rotate(90deg);
+    width: 100px;
+    bottom: 75px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    left: 10px;
+    transition: all 0.5s ;
+}
+
+#social:hover::after {
+    opacity: 0;
+
+}
+@media (min-width: 768px) {
+    #social::after {
+      opacity: 0;
+    }
+}
