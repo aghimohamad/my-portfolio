@@ -6,7 +6,7 @@ import {MdEmail} from "react-icons/md"
 function HeroSection() {
   return (
     <div id='hero' className=' h-[100vh]  mt-16  flex flex-col justify-center items-center'>
-        <div id='social' className='absolute bg-white md:left-0 -left-[46px] hover:left-0 transition-all duration-150 p-1'>
+        <div id='social' className=' fixed bg-white md:left-0 -left-[46px] hover:left-0 transition-all duration-150 p-1'>
             <div className='p-1 mb-2 rounded-sm hover:bg-[#facf0f45] '>
                <a href="#">
                <AiFillLinkedin size={30}  />
