@@ -73,3 +73,7 @@
       opacity: 0;
     }
 }
+
+#contact {
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("../public/common-bg.svg");
+}

@@ -1,4 +1,5 @@
 import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import NavBar from "./components/NavBar.jsx"
 import Projects from "./components/Projects.jsx";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection/>
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }
