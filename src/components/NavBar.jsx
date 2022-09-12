@@ -28,7 +28,8 @@ function NavBar() {
 
   return (
     <div className='flex justify-between items-center top-0 w-full h-16 text-primary fixed bg-white px-4 z-10 '>
-        <div>
+        <div className='flex'>
+          <img src="/favicon.ico" alt="" className='rounded-full h-8 w-8'/>
             <h1 className="font-title font-bold text-xl md:text-2xl  text-[#333] ml-2">Mohamad aghi</h1>
         </div>
 

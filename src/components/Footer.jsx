@@ -13,7 +13,7 @@ function Footer () {
             </div>
             <div>
                 <h1 className='font-bold text-2xl '>social</h1>      
-                <div id='social' className='flex mx-auto w-fit'>
+                <div className='flex mx-auto w-fit'>
             <div className='p-2 transition-all duration-200 hover:animate-ping mb-2 rounded-full hover:bg-[#dddddd4b] '>
                <a href="https://www.linkedin.com/in/mohamad-aghi-86852b14b/">
                <AiFillLinkedin size={30}  />
