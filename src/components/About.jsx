@@ -13,7 +13,7 @@ function About() {
 
 
   return (
-    <div className='bg-[#fafafa] p-8'>
+    <div id='About' className='bg-[#fafafa] p-8'>
         <Heading heading= {heading}/>
         <div className='flex flex-col md:flex-row justify-center md:justify-around '>
             <div className='mb-12 md:mb-0 md:w-[45%]'>

@@ -40,7 +40,7 @@ function Projects() {
 
 
   return (
-    <div className='p-8'>
+    <div id='Projects' className='p-8'>
         <Heading heading={heading} />
         {projects.map(project => (
             <Project key={project.title} project={project} />

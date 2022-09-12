@@ -5,24 +5,24 @@ import {MdEmail} from "react-icons/md"
 
 function HeroSection() {
   return (
-    <div id='hero' className=' h-[100vh]  mt-16  flex flex-col justify-center items-center'>
+    <div id='Home' className=' h-[100vh]  mt-16  flex flex-col justify-center items-center'>
         <div id='social' className=' fixed bg-white md:left-0 -left-[46px] bottom-[50%] translate-y-[50%] hover:left-0 transition-all duration-150 p-1'>
             <div className='p-1 mb-2 rounded-sm hover:bg-[#facf0f45] '>
-               <a href="#">
+               <a href="https://www.linkedin.com/in/mohamad-aghi-86852b14b/">
                <AiFillLinkedin size={30}  />
                </a>
             </div>
             <div className='p-1 mb-2 rounded-sm hover:bg-[#facf0f45] '>
-               <a href="#">
+               <a href="https://github.com/aghimohamad">
                <FaGithubSquare size={30} />               </a>
             </div>
             <div className='p-1 mb-2 rounded-sm hover:bg-[#facf0f45] '>
-               <a href="#">
+               <a href="https://instagram.com/aghimohamad">
                <AiFillInstagram size={30}/>
                </a>
             </div>
             <div className='p-1 rounded-sm hover:bg-[#facf0f45] '>
-               <a href="#">
+               <a href="#Contact">
                <MdEmail size={30}/>
                </a>
             </div>

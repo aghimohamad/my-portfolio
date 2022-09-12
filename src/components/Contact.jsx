@@ -44,7 +44,7 @@ function Contact() {
         description : "Go ahead and contact me using the form below, i'll make sure to reply as soon as possible"
     }
   return (
-    <div id='contact' className='p-8'>
+    <div id='Contact' className='p-8'>
         <Heading heading={heading} />
         <div className='w-full flex flex-col bg-white p-8 rounded-md md:w-[60%] mx-auto'>
         <form  onSubmit={sendEmail}>
