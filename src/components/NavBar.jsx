@@ -44,8 +44,8 @@ function NavBar() {
         </div>
         <ul className={` ${!nav && '-right-full' } ${nav&& 'right-0'} top-full flex flex-col justify-center items-center absolute  w-full transition-all  duration-500 bg-white`}>
             {links.map(link => (
-              <a key={link.id} href={`#${link.link}`} >
-                <li  className={` hover:bg-[#facf0f]  text-[#333] text-center w-full cursor-pointer capitalize text-lg font-bold py-4 border-b hover:text-[#111] transition-colors duration-50`}>
+              <a key={link.id} href={`#${link.link}`} className='w-full' >
+                <li  className={` hover:bg-[#facf0f]  text-[#333] text-center w-full cursor-pointer capitalize text-lg font-bold py-4 border-b hover:text-[#111] transition-colors duration-100`}>
                     {link.link} </li>
                     </a>
             ))}
