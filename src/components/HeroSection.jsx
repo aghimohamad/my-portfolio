@@ -33,7 +33,7 @@ function HeroSection() {
             <h1 className='font-extrabold sm:font-black  text-3xl sm:text-4xl leading-normal mb-12 w-[80%] mx-auto'>HEY, I am Mohamad Aghi, <br /> a Front-End developer.</h1>
             <p className='text-lg mb-12 sm:text-xl'>A frontend developer who is passionate about turning beautiful designs into responsive websites</p>
         </div>
-        <a href="#projects" className='bg-[#facf0f] py-4 px-12 md:px-16 rounded-lg shadow-md font-bold hover:bg-[#facf0f8b] transition-all duration-200'>PROJECTS</a>
+        <a href="#Projects" className='bg-[#facf0f] py-4 px-12 md:px-16 rounded-lg shadow-md font-bold hover:bg-[#facf0f8b] transition-all duration-200'>PROJECTS</a>
         <div className="mouse">
             <div>
 

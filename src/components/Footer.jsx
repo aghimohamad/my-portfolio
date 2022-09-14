@@ -24,12 +24,12 @@ function Footer () {
                <FaGithubSquare size={30} />               </a>
             </div>
             <div className='p-2 transition-all duration-200 hover:animate-ping mb-2 rounded-full hover:bg-[#dddddd4b] '>
-               <a href="#">
+               <a href="#https://instagram.com/aghimohamad">
                <AiFillInstagram size={30}/>
                </a>
             </div>
             <div className='p-2 transition-all duration-200 hover:animate-ping mb-2 rounded-full hover:bg-[#dddddd4b] '>
-               <a href="#">
+               <a href="#Contact">
                <MdEmail size={30}/>
                </a>
             </div>
