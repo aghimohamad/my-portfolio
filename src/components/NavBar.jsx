@@ -33,7 +33,7 @@ function NavBar() {
             <h1 className="font-title font-bold text-xl md:text-2xl  text-[#333] ml-2">Mohamad aghi</h1>
         </div>
 
-        <ul className='flex hidden md:flex '>
+        <ul className=' hidden md:flex '>
             {links.map(link => (
               <a key={link.id} href={`#${link.link}`} >
                 <li  className='mx-2 cursor-pointer capitalize text-[#111] font-medium hover:text-[#facf0f] transition-colors duration-50'> {link.link}</li></a>
